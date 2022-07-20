@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.conteiner{    
+    max-width: 1300px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.25)
+}
+.logo{
+    width: 200px;
+    height: 24px;
+    margin: 30px 0;
+}
+nav{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0px;
+}
+.selecoes{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #242424;
+}
+.selecoes:hover{
+    font-size: 23px;
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.principal section ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+.imgcard{
+    width: 100%;
+    height: 154px;
+}
+.card{
+    width: 280px;
+    height: 408px;
+    margin-bottom: 30px;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.card main{
+    height: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card main span{
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0px 0px 10px;
+    background-color: #0A99FE;
+    color: #FFFFFF;
+}
+.card main h2{
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 8px 10px ;
+
+ }
+ .card main p{
+    line-height: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+ }
+ .card main strong{
+    margin-left: 10px;
+ }
+.card main button{
+    padding: 20px;
+    border: none;
+    background: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+}
+.card main button:hover {
+    background: #0A99FE;
+    color: #FFFFFF;
+}
+.pesquisaProduto{
+    display: flex;
+    margin-bottom: 30px;
+}
+input{
+    margin-right: 3px;
+    width: 246px;
+    height: 50px;
+}
+.pesquisa{
+    width: 96px;
+    height: 55px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+}
+.pesquisa:hover{
+    background: #0A99FE;
+    color: #FFFFFF;
+}
+.carrinhocard{
+    font-family: 'Roboto', sans-serif;
+    width: 347px;
+    height: 264px;
+}
+.carrinho1{
+    font-size: 2em;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    width: 347px;
+    height: 50px;
+    background: #0A99FE;
+    color: #FFFFFF;
+}
+.itensCarrinho{
+    width: 345px;
+    height: 270px;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    overflow-x: auto;
+}
+.vazio{
+    width: 100%;
+}
+figure{
+    text-align: center;
+    color: #0A99FE;
+}
+figure img{
+    width: 100%;
+    height: 214px;
+}
+.cardCarrinho{
+    display: flex;
+    margin: 15px;
+    width: 290px;
+    height: 92px;
+}
+.cardCarrinho main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+.cardCarrinho img{
+    width: 88px;
+    height: 92px;
+}
+.cardCarrinho main button{
+    border: none;
+    background: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+}
+.cardCarrinho main button:hover{
+    background: #0A99FE;
+    color: #FFFFFF;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    background: #0A99FE;
+    color: #FFFFFF;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+.finalizar{
+    background: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+    font-size: 18px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 8px;
+    border: solid 1px #0A99FE;
+}
+.finalizar:hover{
+    background: #0A99FE;
+    color: #FFFFFF;
+}

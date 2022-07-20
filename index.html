@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgTaina/favicon.jpeg">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+    <title>Capstone</title>
+</head>
+<body>
+    <header class="conteiner">
+        <img class="logo" src="./imgTaina/Title3.png" alt="Logo">
+
+        <nav>
+            <a class="selecoes" href="#" target="_self">Todos</a>
+            <a class="selecoes" href="#" target="_self">Bonecos</a>
+            <a class="selecoes" href="#" target="_self">Quadros</a>
+        </nav>
+    </header>
+
+    <main class="conteiner principal">
+
+        <section>
+            <ul>
+                <li class="card">
+                    <img class="imgcard" src="./imgTaina/pocahontas.jpg" alt="Pocahontas">
+                    <main>
+                        <span>Quadro</span>
+                        <h2>Quadro Pocahontas</h2>
+                        <p>Amante da natureza, possui um espírito extremamente livre.</p>
+                        <strong>R$ 109.90</strong> 
+                        <button>Adicionar ao carrinho</button>            
+                    </main>
+                </li>
+
+                <li class="card">
+                    <img class="imgcard" src="./imgTaina/raya.jpg" alt="Raya">
+                    <main>
+                        <span>Quadro</span>
+                        <h2>Quadro Raya</h2>
+                        <p>Independente, ela mostra que mulher podem ser oque quiserem.</p>
+                        <strong>R$ 113.99</strong>
+                        <button>Adicionar ao carrinho</button>            
+                    </main>
+                </li>
+
+                <li class="card">
+                    <img class="imgcard" src="./imgTaina/mulan1.webp" alt="Mulan">
+                    <main>
+                        <span>Quadro</span>
+                        <h2>Quadro Mulan</h2>
+                        <p>Considerada princesa, pela força e garra.</p>
+                        <strong>R$ 109.90</strong>
+                        <button>Adicionar ao carrinho</button>            
+                    </main>
+                </li>
+
+                <li class="card">
+                    <img class="imgcard" src="./imgTaina/MOANA.jpg" alt="Moana">
+                    <main>
+                        <span>Quadro</span>
+                        <h2>Quadro Moana</h2>
+                        <p>Predestinada, determinada e pronta para quebrar as regras.</p>
+                        <strong>R$ 99.99</strong>
+                        <button>Adicionar ao carrinho</button>            
+                    </main>
+                </li>
+
+                <li class="card">
+                    <img class="imgcard" src="./imgTaina/merida.jpg" alt="Merida">
+                    <main>
+                        <span>Miniatura</span>
+                        <h2>Miniatura Merida</h2>
+                        <p>Rebelde e aventureira, dona de excelente pontaria e agilidade.</p>
+                        <strong>R$ 24.80</strong>
+                        <button>Adicionar ao carrinho</button>            
+                    </main>
+                </li>
+
+                <li class="card">
+                    <img class="imgcard" src="./imgTaina/mulher maravilha.jpg" alt="Mulher Maravilha">
+                    <main>
+                        <span>Miniatura</span>
+                        <h2>Miniatura Mulher Maravilha</h2>
+                        <p> Competência, independência, feminilidade e beleza.</p>
+                        <strong>R$ 24.80</strong>
+                        <button>Adicionar ao carrinho</button>            
+                    </main>
+                </li>
+            </ul>
+        </section>
+
+        <div>
+            <div class="pesquisaProduto">
+                <input  type =" text " placeholder ="Digite sua perquisa aqui">
+                <button class="pesquisa">Pesquisar</button>
+            </div>
+
+            <section class="carrinhocard">
+                <h2 class="carrinho1">Carrinho</h2>
+                <ul class="itensCarrinho">
+<!--                     <li class="vazio">
+                        <figure>
+                            <img src="./imgTaina/empty-cart.png" alt="Carrinho Vazio">
+                            <figcaption>Adicione itens</figcaption>
+                        </figure>    
+                    </li>
+ -->            
+                    <li class="cardCarrinho">
+                        <img src="./imgTaina/pocahontas.jpg" alt="Pocahontas">
+                        <main>
+                            <h2>Miniatura Mulher Maravilha</h2>
+                            <strong>R$ 24.80</strong>
+                            <button>Remover Produto</button>    
+                        </main>
+                    </li>
+
+                </ul>
+                <div class="div1">
+                    <div class="div2">
+                        <p>Quantidade:</p>
+                        <span>1</span>
+                    </div>
+                    <div class="div3">
+                        <p>Total</p>
+                        <span>24.80</span>
+                    </div>    
+                </div>
+                <button class="finalizar">Finalizar Compra</button>
+            </section>
+        </div>
+
+    </main>
+    
+</body>
+</html>
