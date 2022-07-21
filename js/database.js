@@ -26,7 +26,7 @@ const data = [
     img: "./imgTaina/merida.jpg",
     nameItem: "Miniatura Merida",
     description:
-      ">Rebelde e aventureira, dona de excelente pontaria e agilidade.",
+      "Rebelde e aventureira, dona de excelente pontaria e agilidade.",
     value: 24.80,
     addCart: "Adicionar ao carrinho",
     tag: ["Miniatura"],
