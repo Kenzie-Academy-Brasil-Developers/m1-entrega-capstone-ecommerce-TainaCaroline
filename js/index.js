@@ -89,19 +89,20 @@ function interceptarProdutos(event){
 function removerProduto(event){
 
     let btnRemover = event.target
+    let idDoItemCard = btnRemover.id
 
     if(btnRemover.tagName == 'BUTTON'){
-
-        let index = btnRemover.id
-        carrinhoCompra.splice(index, 1)
-
         let arrayLi = tagUlCarrinho.children
-
+        
         let li = Array.from(arrayLi).find((li) => {
-            return li.id == index
+            return li.id == idDoItemCard
         })
-
+        
         li.remove()
+
+        let index = carrinhoCompra.findIndex(item => item.id === idDoItemCard);
+        carrinhoCompra.splice(index, 1)
+        somaTotal(carrinhoCompra)
     }
 }
 tagUlCarrinho.addEventListener('click', removerProduto) 
